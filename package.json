@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/leshy/logstash_bitcoin_ticker/issues"
   },
-  "homepage": "https://github.com/leshy/logstash_bitcoin_ticker"
+  "homepage": "https://github.com/leshy/logstash_bitcoin_ticker",
+  "dependencies": {
+    "helpers": "git://github.com/leshy/nodejs-helpers.git",
+    "request": "^2.53.0",
+    "udp-client": "^0.1.0",
+    "underscore": "^1.7.0"
+  }
 }

@@ -1,0 +1,1 @@
+just a simple ticker that queries btc price at https://blockchain.info/ticker and forwards data to logstash
