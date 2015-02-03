@@ -4,8 +4,8 @@ After=syslog.target
 
 [Service]
 SyslogIdentifier=probe
-WorkingDirectory=/usr/share/logstash-btcticker
-ExecStart=/usr/bin/nodejs /usr/share/logstash-btcticker/app.js
+WorkingDirectory=/usr/local/share/node/logstash_bitcoin_ticker
+ExecStart=/usr/bin/nodejs /usr/local/share/node/logstash_bitcoin_ticker/app.js
 Restart=on-failure
 StandardError=syslog
 StandardOutput=null
